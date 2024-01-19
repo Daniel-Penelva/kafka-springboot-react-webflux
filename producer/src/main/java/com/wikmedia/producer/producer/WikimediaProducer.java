@@ -35,3 +35,13 @@ public class WikimediaProducer {
  * onde a comunicação assíncrona e a troca de mensagens são parte do design da aplicação, com o Apache Kafka sendo um componente-chave para essa 
  * funcionalidade.
 */
+
+/* IMPORTANTE!!!
+Apache Kafka - SITE (STEP 5): https://kafka.apache.org/quickstart
+READ THE EVENTS - para o caso do kafka instalado - usar o terminal: 
+bin/kafka-console-consumer.sh --topic wikimedia-stream --from-beginning --bootstrap-server localhost:9092
+
+No meu caso para produzir a mensagem via kafka utilizando o docker - usar o terminal:
+docker-compose exec -it kafka kafka-console-consumer.sh --topic wikimedia-stream --bootstrap-server localhost:9092
+
+*/ 
