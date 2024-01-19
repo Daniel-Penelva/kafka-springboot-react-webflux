@@ -1,4 +1,4 @@
-package com.wikmedia.producer.config;
+package com.wikmedia.consumer.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;
